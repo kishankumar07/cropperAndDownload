@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.js"></script>
+    
+    <title>Document</title>
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    
+
+
+
+<div class="bg-white rounded-md shadow-md w-full max-w-md p-6">
+    <h2 class="text-2xl font-semibold mb-4">Image cropper</h2>
+    <input class="mb-4" type="file" id="imageInput" class="mb-4">
+
+<div>
+    <img class="hidden rounded-md shadow-md mb-4"  src="" id="croppedImage" alt="">
+</div>
+<div>
+    <button id="cropButton" class="bg-blue-500 text-white px-4 py-2 rounded-md mb-4">Crop Image </button>
+</div>
+<div >
+    <button id="downloadButton" class="bg-green-500 text-white px-4 py-2 rounded-md">Download cropped Image</button>
+</div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
